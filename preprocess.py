@@ -13,17 +13,7 @@ def preprocess(data):
     })
 
 
-    # df['message_dates'] = df['message_dates'].str.replace(' -', '', regex=False)
 
-    # df['message_dates'] = (
-    # df['message_dates']
-    # .astype(str)
-    # .str.replace('\ufeff', '', regex=False)   # remove BOM
-    # .str.replace('\xa0', ' ', regex=False)    # non-breaking space
-    # .str.replace('–', '-', regex=False)       # en-dash
-    # .str.replace(' -', '', regex=False)       # trailing dash
-    # .str.strip()
-    # )
 
     print(df['message_dates'])
     
